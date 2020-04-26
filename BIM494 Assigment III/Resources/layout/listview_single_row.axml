@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="80dp">
+	
+	<TextView
+		android:text="Country"
+		android:gravity="center"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="100dp"
+		android:layout_height="match_parent"
+		android:id="@+id/country_textview" />
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="0dp"
+		android:layout_weight="1"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1">
+		<ImageView
+			android:src="@drawable/recovered"
+			android:layout_gravity="center"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:id="@+id/ımageView1" />
+		<TextView
+			android:text="0"
+			android:gravity="center_horizontal"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/recovered_textview" />
+
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="0dp"
+		android:layout_weight="1"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout2">
+		<ImageView
+			android:src="@drawable/confirm"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_gravity="center"
+			android:id="@+id/ımageView1" />
+		<TextView
+			android:text="0"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/confirmed_textview" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="0dp"
+		android:layout_weight="1"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout3">
+		<ImageView
+			android:src="@drawable/death"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_gravity="center"
+			android:id="@+id/ımageView1" />
+
+		<TextView
+			android:text="0"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/deaths_textview" />
+	</LinearLayout>
+</LinearLayout>
